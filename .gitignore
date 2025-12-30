@@ -1,0 +1,52 @@
+# 编译输出目录
+/out/
+/target/
+/build/
+
+# 依赖目录
+/lib/
+/.m2/
+/.gradle/
+
+# IDE相关文件
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+.idea/
+.idea_modules/
+META-INF/
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+*.bak
+
+# 日志文件
+*.log
+logs/
+
+# 构建工具文件
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# Maven相关
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle相关
+gradle-app.setting
+gradlew
+gradlew.bat
+
+# 测试相关
+/test-results/
+/coverage/
