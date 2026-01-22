@@ -1,7 +1,8 @@
-import com.peng.AppConfig;
+package com.peng;
+
 import com.peng.Solutions.LeetCode1161;
+import com.peng.Solutions.LeetCode77;
 import org.junit.jupiter.api.Test; // JUnit 5的@Test注解（注意包名！）
-import org.junit.jupiter.api.Assertions; // 断言工具类，验证结果
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
@@ -17,5 +18,12 @@ public class SolutionsTest {
     @Test
     public void LeetCode1161(){
         System.out.println(leetCode1161);
+    }
+    @Autowired
+    LeetCode77 leetCode77;
+    @Test
+    public  void LeetCode77(){
+        System.out.println(leetCode77.combine(4,2));
+
     }
 }
